@@ -20,7 +20,8 @@ addBtn.addEventListener('click', () => {
             </li>`
     // Добавить элемент в список
     list.appendChild(newItem);
-
+total=total+PromiseRejectionEvent.value;
+sumAll.textContent.total
 
     // Отчистить поле ввода
     nameInput.value = '';
@@ -33,7 +34,8 @@ addBtn.addEventListener('click', () => {
     newItem.appendChild(deleteButton);
 
     deleteButton.addEventListener('click', () => {
-
+total=total- +newItem.querySelector('.price').textContent
+console.log(total)
         // удаление элимента из списка
         list.removeChild(newItem);
     })
