@@ -64,9 +64,11 @@ body {
 
 .wrap {
     background-color: lightskyblue;
-    width: 500px;
+    min-width: 600px;
     height: 100%;
     margin-left: 250px;
+
+
 }
 
 #list {
@@ -103,6 +105,21 @@ button {
     background-color: rgb(144, 184, 146);
     margin-top: 10px;
 }
-.sumAll{
+
+.sumAll {
     color: black;
+    background-color: rgb(133, 219, 180);
+    min-height: 60px;
+    width: 240px;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+
+
+
+.itog {
+    font-size: 50px;
+    margin-left: 40px;
 }
